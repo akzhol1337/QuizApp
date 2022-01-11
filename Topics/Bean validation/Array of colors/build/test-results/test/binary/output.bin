@@ -1,0 +1,63 @@
+[1;31m
+Start test 1[0m
+
+(  .   ____          _            __ _ _
+) /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+*( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
++ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+*  '  |____| .__|_| |_|_| |_\__, | / / / /
+) =========|_|==============|___/=/_/_/_/
++ :: Spring Boot ::                (v2.5.6)
+
+ 2022-01-04 00:13:57.631  INFO 11862 --- [    Test worker] task.Main                                : Starting Main using Java 17.0.1 on Akzhols-MacBook-Pro.local with PID 11862 (started by rockkstar in /Users/rockkstar/IdeaProjects/Web Quiz Engine/Topics/Bean validation/Array of colors)
+¦2022-01-04 00:13:57.633  INFO 11862 --- [    Test worker] task.Main                                : No active profile set, falling back to default profiles: default
+“2022-01-04 00:13:58.188  INFO 11862 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 28852 (http)
+2022-01-04 00:13:58.194  INFO 11862 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+•2022-01-04 00:13:58.194  INFO 11862 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+˜2022-01-04 00:13:58.230  INFO 11862 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+¤2022-01-04 00:13:58.230  INFO 11862 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 575 ms
+›2022-01-04 00:13:58.517  INFO 11862 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoint(s) beneath base path '/actuator'
+¢2022-01-04 00:13:58.534  INFO 11862 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 28852 (http) with context path ''
+š2022-01-04 00:13:58.541  INFO 11862 --- [    Test worker] task.Main                                : Started Main in 1.066 seconds (JVM running for 1.42)
+Ÿ2022-01-04 00:13:58.722  INFO 11862 --- [io-28852-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+Ž2022-01-04 00:13:58.722  INFO 11862 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+†2022-01-04 00:13:58.725  INFO 11862 --- [io-28852-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+[1;31m
+Start test 2[0m
+[1;31m
+Start test 3[0m
+[1;31m
+Start test 4[0m
+[1;31m
+Start test 5[0m
+[1;31m
+Start test 6[0m
+[1;31m
+Start test 7[0m
+[1;31m
+Start test 8[0m
+â2022-01-04 00:13:58.829  WARN 11862 --- [io-28852-exec-8] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [null]; codes [NotNull.entity.colors,NotNull.colors,NotNull.[Ljava.lang.String;,NotNull]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors]]; default message [must not be null]] ]
+[1;31m
+Start test 9[0m
+æ2022-01-04 00:13:58.847  WARN 11862 --- [io-28852-exec-9] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 10[0m
+ç2022-01-04 00:13:58.852  WARN 11862 --- [o-28852-exec-10] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 11[0m
+ê2022-01-04 00:13:58.858  WARN 11862 --- [io-28852-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 12[0m
+‹2022-01-04 00:13:58.864  WARN 11862 --- [io-28852-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 13[0m
+Ž2022-01-04 00:13:58.871  WARN 11862 --- [io-28852-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 14[0m
+‘2022-01-04 00:13:58.876  WARN 11862 --- [io-28852-exec-4] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8, 9}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 15[0m
+¦2022-01-04 00:13:58.885  WARN 11862 --- [io-28852-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, e}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]
+[1;31m
+Start test 16[0m
+ª2022-01-04 00:13:58.891  WARN 11862 --- [io-28852-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public void task.Controller.acceptColors(task.Entity): [Field error in object 'entity' on field 'colors': rejected value [{a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, e, a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, e, a, b, c, d, e, f, 1, 2, 3, 4, 5, 6, 7, 8, 9, a, b, c, d, e, f, e}]; codes [Size.entity.colors,Size.colors,Size.[Ljava.lang.String;,Size]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [entity.colors,colors]; arguments []; default message [colors],12,3]; default message [size must be between 3 and 12]] ]

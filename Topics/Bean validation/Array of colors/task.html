@@ -1,0 +1,21 @@
+<p><div class="alert alert-warning">This problem is fully supported by version 2021.9 of the EduTools plugin and newer. To avoid possible errors, please make sure that the plugin is updated. Alternatively, you can solve it using the web interface.</div></p>
+
+<p>In this task you have to implement the following functionality:</p>
+
+<p><code class="language-json">POST /api/colors</code> — accepts a JSON object with one field <code class="language-json">colors</code> (array). The array must have from 3 to 12 elements inclusive. Also, the field must not be <code class="language-json">null</code>. If the requirements are met, the program must respond with <code class="language-json">200 OK</code>, otherwise, the response should be <code class="language-json">400 Bad Request</code>.</p>
+
+<p><strong>Example 1</strong>: <code class="language-json">POST /api/colors</code> request with the following body:</p>
+
+<pre><code class="language-json">{
+   "colors": ["red", "green", "blue"]
+}</code></pre>
+
+<p>Status code: <code class="language-json">200 OK</code></p>
+
+<p><strong>Example 1</strong>: <code class="language-json">POST /api/colors</code> request with the following body:</p>
+
+<pre><code class="language-json">{
+   "colors": []
+}</code></pre>
+
+<p>Status code: <code class="language-json">400 Bad Request</code></p>
